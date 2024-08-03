@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "yandex-handbook-ml"
+version = "0.1.0"
+description = ""
+authors = ["Arist0craft <dimnktn@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+catboost = "^1.2.5"
+pandas = "^2.2.2"
+numpy = "^2.0.1"
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
+scikit-learn = "^1.5.1"
+scipy = "^1.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
